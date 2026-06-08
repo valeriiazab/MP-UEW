@@ -24,7 +24,7 @@
             <i class="fa-solid fa-bars" onclick="openmenu()"></i><!--ikonę pobrać z https://fontawesome.com/icons/categories (ten obszar dotyczy urządzeń mobilnych)-->
             <div class="toggle-btn" id="btn">
                 <span id="btnText">Light</span>
-                <img src="images/sun.png" id="btnIcon">
+                <img src="images/images/sun.png" id="btnIcon">
             </div>
         </nav>
         <div class="header-text">
@@ -98,7 +98,7 @@
         <h1 class="sub-title">My Work</h1>
         <div class="work-list">
             <div class="work">
-                <img src="images/images/invwstmwnt-calculator-logo.png"><!--zdjęcie związane z zainteresowaniami-->
+                <img src="images/images/investment-calculator-logo.png"><!--zdjęcie związane z zainteresowaniami-->
                 <div class="layer">
                     <h3>Investment Calculator</h3> <!--wykonane projekty, które można połączyć z dyskiem Google lub odwołanie do strony, na której realizowano jakiś kurs-->
                     <a href="https://github.com/vzabolotna/Investment-Calculator" target="_blank"><i class="fa-solid fa-up-right-from-square"></i></a>
@@ -210,10 +210,10 @@
         document.body.classList.toggle("light-theme");
     
         if(document.body.classList.contains("light-theme")){
-            btnIcon.src = "images/moon.png";
+            btnIcon.src = "images/images/moon.png";
             btnText.innerHTML = "Dark";
         }else{
-            btnIcon.src = "images/sun.png";
+            btnIcon.src = "images/images/sun.png";
             btnText.innerHTML = "Light";
         }
     }
